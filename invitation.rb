@@ -18,4 +18,4 @@ puts "What is the host's name?"
 
 host_name = gets.chomp.capitalize
 
-puts "Dear "
+puts "Dear #{guest_name},"
