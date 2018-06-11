@@ -16,6 +16,6 @@ time = gets.chomp
 
 puts "What is the host's name?"
 
-host_name = gets.chomp.split.capitalize
+host_name = gets.chomp.split.map(&:capitalize)*' '
 
 puts "Dear #{guest_name}, You are cordially invited to the #{party_name} on #{date} at #{time}. Sincerely, #{host_name}."
