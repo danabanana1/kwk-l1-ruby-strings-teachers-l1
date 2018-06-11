@@ -14,4 +14,7 @@ puts "What time is the party?"
 
 time = gets.chomp
 
+puts "What is the host's name?"
+
+host_name = gets.chomp.capitalize
 
