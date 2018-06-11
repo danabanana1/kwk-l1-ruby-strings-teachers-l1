@@ -8,7 +8,7 @@ party_name = gets.chomp.split.map(&:capitalize)*' '
 
 puts "What is the date of the party?"
 
-date = gets.chomp
+date = gets.chomp.capitalize
 
 puts "What time is the party?"
 
